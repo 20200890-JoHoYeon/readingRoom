@@ -58,7 +58,19 @@ const Intro = () => {
           source={require('../assets/2111466w.png')}
           style={styles.mainLogoImg}></Image>
       </View>
-      <Pressable
+      <Pressable style={styles.button} onPress={signInWithKakao}>
+        <Text style={styles.text}>카카오 로그인</Text>
+      </Pressable>
+      <Pressable style={styles.button} onPress={getProfile}>
+        <Text style={styles.text}>프로필 조회</Text>
+      </Pressable>
+      <Pressable style={styles.button} onPress={unlinkKakao}>
+        <Text style={styles.text}>링크 해제</Text>
+      </Pressable>
+      <Pressable style={styles.button} onPress={signOutWithKakao}>
+        <Text style={styles.text}>카카오 로그아웃</Text>
+      </Pressable>
+      {/* <Pressable
         style={styles.button}
         onPress={() => {
           signInWithKakao();
@@ -73,7 +85,7 @@ const Intro = () => {
       </Pressable>
       <Pressable style={styles.button} onPress={() => signOutWithKakao()}>
         <Text style={styles.text}>카카오 로그아웃</Text>
-      </Pressable>
+      </Pressable> */}
     </View>
   );
 };

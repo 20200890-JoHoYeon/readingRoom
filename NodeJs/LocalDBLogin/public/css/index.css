@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 화면 높이에 맞추기 */
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+::-webkit-input-placeholder {
+  /* Webkit 브라우저를 위한 스타일 */
+  color: #dadada;
+}
+input {
+  padding: 12px 14px;
+  font-size: 16px;
+}
+.view_area {
+  width: 360px;
+  height: 640px;
+  border: solid 1px black;
+  position: relative;
+}
+.login-container,
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fc9f66;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fae39c;
+}
+
+#loginButton,
+#username,
+#password {
+  margin-bottom: 29px;
+  width: 259px;
+  height: 45px;
+}
+#username,
+#password {
+  font-weight: bold;
+  border: solid 1px black;
+}
+
+#loginButton {
+  background-color: #fac375;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-container {
+  justify-content: center;
+  display: flex;
+}
+#vocalBtn {
+  margin-right: 21px;
+}
+#vocalBtn,
+#singKingBtn {
+  background-color: #fac375;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+
+  width: 157px;
+  height: 146px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}

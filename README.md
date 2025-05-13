@@ -15,6 +15,9 @@ A folder that records learning. It mainly contains practices using textbooks rel
 | ![Node.js](https://skillicons.dev/icons?i=nodejs) | Node.js |
 | ![Python](https://skillicons.dev/icons?i=python) | Python |
 | ![React Native](https://skillicons.dev/icons?i=react) | React Native |
+| ![Spring](https://skillicons.dev/icons?i=spring) | Spring |
+| ![MySQL](https://skillicons.dev/icons?i=mysql) | MySQL |
+
 
 
 <!--

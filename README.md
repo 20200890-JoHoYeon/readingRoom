@@ -11,6 +11,7 @@ A folder that records learning. It mainly contains practices using textbooks rel
 |------|------|
 | ![C#](https://skillicons.dev/icons?i=cs) | C# |
 | ![C](https://skillicons.dev/icons?i=c) | C |
+| <img src="https://skillicons.dev/icons?i=unknown" onerror="this.src='empty.svg'" alt="Empty Icon" />| VB6 |
 | ![Java (JSP)](https://skillicons.dev/icons?i=java) | JSP |
 | ![Node.js](https://skillicons.dev/icons?i=nodejs) | Node.js |
 | ![Python](https://skillicons.dev/icons?i=python) | Python |
